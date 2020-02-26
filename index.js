@@ -9,8 +9,6 @@ let ingrediente = new Ingrediente(cantidad, "Leche", 500);
 console.log(ingrediente.getDescripcion());
 
 let receta = new Receta("ChocoMilk", "Ramon", [ingrediente]);
-console.log(receta);
-
 console.log(receta.getCosto());
 console.log(receta.getNumeroIngredientes());
 receta.imprimirEnConsola();
