@@ -20,6 +20,7 @@ class Ingrediente {
     let { getDescripcion } = this.cantidad;
     return `${getDescripcion()} de ${this.nombre} $${this.costo}`;
   };
+  getCosto = () => this.costo;
 }
 
 export default Ingrediente;
